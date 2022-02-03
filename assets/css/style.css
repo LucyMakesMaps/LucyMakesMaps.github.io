@@ -16,6 +16,7 @@ body {
 a {
   color: #ffb727;
   text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -266,13 +267,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("../img/LucyHikes.jpg") center;
   background-size: cover;
   position: relative;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.25);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -522,7 +523,7 @@ section {
   color: #82909c;
 }
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/MapMapMap.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
